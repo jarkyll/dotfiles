@@ -183,7 +183,7 @@ nnoremap <Esc>= :vsp<CR>
 nnoremap <Esc>- :sp<CR>
 
 " Causes new split locations to match intuition
-set splitright 
+set splitright
 set splitbelow
 
 " Visual word wrapping
@@ -205,7 +205,6 @@ set wildmenu
 " Set to 256 colors
 set t_Co=256
 
-colorscheme wombat256
 
 " ----------------
 " colorscheme overrides
@@ -221,3 +220,4 @@ highlight GitGutterChange ctermbg=none ctermfg=12
 highlight GitGutterDelete ctermbg=none ctermfg=1
 highlight GitGutterChangeDelete ctermbg=none ctermfg=5
 
+inoremap jk <Esc>
